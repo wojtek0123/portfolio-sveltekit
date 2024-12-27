@@ -2,11 +2,11 @@ import containerQueries from '@tailwindcss/container-queries';
 import type { Config } from 'tailwindcss';
 
 export default {
-  content: ['./src/**/*.{html,js,svelte,ts}'],
+	content: ['./src/**/*.{html,js,svelte,ts}'],
 
-  theme: {
-    extend: {}
-  },
+	theme: {
+		extend: {}
+	},
 
-  plugins: [containerQueries]
+	plugins: [containerQueries]
 } satisfies Config;

@@ -1,0 +1,15 @@
+[
+	{
+		"id": "e-commerce",
+		"name": "e-commerce",
+		"technologies": ["Angular", "Vue", "Nx Monorepo", "NestJS", "prisma"],
+		"status": "in progress",
+		"description": "E-commerce platform with focus to use different technologies and all available apps are in the monorepo which helps to managed shared code and dependencies. Also using prisma for database and NestJS for backend. The client web site which is standard store is built in Angular. The admin panel is built in Vue and the app to managed the orders will be built in React. Admin dashboard app is also available as electron app on different operating systems. The design system is built using prime components library and tailwindcss. Prime is available for Angular, Vue and React, so all the app can have similar look with minimal work.\nIn project I used DDD approach to separate the domain logic from the infrastructure and presentation. The project is also using Nx monorepo to manage the apps and libraries. This architure helps in development of apps",
+		"github_url": "https://github.com/wojtek0123/e-commerce",
+		"live_url": "",
+		"image": {
+			"url": "",
+			"alt": ""
+		}
+	}
+]
