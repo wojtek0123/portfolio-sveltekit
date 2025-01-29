@@ -3,6 +3,7 @@
 	import AboutMe from '$lib/main-page/AboutMe.svelte';
 	import Experience from '$lib/main-page/Experience.svelte';
 	import Projects from '$lib/main-page/Projects.svelte';
+	import Contact from '$lib/main-page/Contact.svelte';
 	import { onMount } from 'svelte';
 	import Collaboration from '$lib/main-page/Collaboration.svelte';
 
@@ -20,8 +21,6 @@
 		});
 	}
 
-	function scrollHandler() {}
-
 	function handleIntersect(entries: IntersectionObserverEntry[]) {
 		entries.forEach((entry) => {
 			if (entry.isIntersecting) {
@@ -33,7 +32,7 @@
 	onMount(() => {
 		observer = new IntersectionObserver(handleIntersect, {
 			root: document.querySelector('#scroll-container'),
-			threshold: 0.5 // Adjust this value as needed
+			threshold: 0.5
 		});
 
 		const section = document.querySelectorAll('header, section');
@@ -61,12 +60,12 @@
 
 <div
 	id="scroll-container"
-	on:wheel={scrollHandler}
 	class="xl:scrollbar-none relative h-screen snap-both snap-mandatory overflow-x-hidden overflow-y-scroll scroll-smooth bg-black text-white selection:bg-white selection:text-black xl:overflow-x-hidden xl:overflow-y-scroll"
 >
 	<Header />
 	<AboutMe />
 	<Experience />
-	<Collaboration />
+	<!-- <Collaboration /> -->
 	<Projects />
+	<Contact />
 </div>

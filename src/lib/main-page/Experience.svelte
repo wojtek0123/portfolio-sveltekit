@@ -4,10 +4,7 @@
 
 <SectionWrapper sectionId="experience" title="Experience">
 	{#snippet additionalContent()}
-		<p>
-			Głównie skupiam się na tworzeniu aplikacji webowych w technologii Angular, ale inne
-			technologie do tworzenia nowoczesnych stron internetowych nie są mi straszne.
-		</p>
+		<p></p>
 	{/snippet}
 	{#snippet mainContent()}
 		<div class="flex flex-col">

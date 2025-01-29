@@ -5,8 +5,10 @@ export default {
 	content: ['./src/**/*.{html,js,svelte,ts}'],
 
 	theme: {
-		extend: {}
+		extend: {},
+		fontFamily: {
+			'oswold-font': ['Oswald', 'sans-serif']
+		}
 	},
-
 	plugins: [containerQueries]
 } satisfies Config;
