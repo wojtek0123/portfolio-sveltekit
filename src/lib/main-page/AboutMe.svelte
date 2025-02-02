@@ -17,17 +17,18 @@
 				<h3 class="mb-3 text-2xl xl:text-4xl">Hello!</h3>
 				<div class="flex flex-col gap-4">
 					<p class="xl:text-lg 2xl:text-xl">
-						My name is Wojtek. I got intersted in programming in around july 2021. This wasn't easy
-						I have couple of tries before july 2021 and couldn't stay consisted with learning. I
-						tried different aspects of IT jobs from game dev to cybersecurity but non of these
-						intrested me enough to continue learning.
+						My name is Wojtek. I became interested in programming around July 2021. It wasn’t easy.
+						I had tried learning a few times before July 2021, but I couldn’t stay consistent. I
+						explored different areas of IT, from game development to cybersecurity, but none of them
+						interested me enough to keep going.
 					</p>
 					<p class="xl:text-lg 2xl:text-xl">
-						But something different was for front-end. It's satisaing because from one line of code
-						i can see the result of my work. The front-end was to gate to IT. From july 2021 I
-						constantly learn new things, reading articles and develop my side projects.
+						However, front-end development was different. It’s satisfying because I can see the
+						results of my work from just a single line of code. Front-end development became my
+						gateway into the world of IT. Since July 2021, I’ve been consistently learning new
+						things, reading articles, and working on side projects.
 					</p>
-					<p class="xl:text-lg 2xl:text-xl">I am not afraid of new front-end technologies.</p>
+					<p class="xl:text-lg 2xl:text-xl">I’m not afraid of new front-end technologies.</p>
 				</div>
 			</div>
 			<div class="mt-10 hidden sm:flex sm:flex-col sm:px-5 xl:px-0">
